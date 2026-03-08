@@ -1,3 +1,6 @@
+## Project Structure
+
+```
 .
 ├── datasets/
 │   ├── Books_Data_Clean.csv
@@ -7,3 +10,4 @@
 ├── Project2 Shopping Behavioure/
 │   └── customerShoppingBehavioure.ipynb
 └── test.py
+```
