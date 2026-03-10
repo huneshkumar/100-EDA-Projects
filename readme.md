@@ -18,6 +18,7 @@ This repository contains hands-on EDA projects built with Jupyter notebooks. Eac
 | **Project 2 — Shopping Behaviour** | Exploration of customer shopping trends and purchasing patterns. | `shopping_trends.csv` |
 | **Project 3 — Netflix Movies & TV Shows** | Analysis of Netflix content distribution, genres, and growth over time. | `netflix_titles.csv` |
 | **Project 4 — Medical Insurance Cost** | Analysis of medical insurance costs and factors affecting premiums. | `insurance.csv` |
+| **Project 5 — Heart Disease Analysis** | EDA of heart disease indicators and related health metrics. | `heart.csv` |
 
 ---
 
@@ -29,7 +30,8 @@ This repository contains hands-on EDA projects built with Jupyter notebooks. Eac
 │   ├── Books_Data_Clean.csv
 │   ├── shopping_trends.csv
 │   ├── netflix_titles.csv
-│   └── insurance.csv
+│   ├── insurance.csv
+│   └── heart.csv
 ├── Project1 Books Sales/
 │   └── Books.ipynb
 ├── Project2 Shopping Behavioure/
@@ -38,6 +40,8 @@ This repository contains hands-on EDA projects built with Jupyter notebooks. Eac
 │   └── NetflixAnalysis.ipynb
 ├── Project4 Medical Insurance Cost Analysis/
 │   └── insurance.ipynb
+├── Project5 Heart disease Analysis/
+│   └── HeartAnalysis.ipynb
 └── readme.md
 ```
 
@@ -95,6 +99,7 @@ This repository contains hands-on EDA projects built with Jupyter notebooks. Eac
 - **shopping_trends.csv** — Customer shopping and trend data for behaviour analysis.
 - **netflix_titles.csv** — Netflix movies and TV shows catalog for content analysis.
 - **insurance.csv** — Medical insurance cost data for cost and premium analysis.
+- **heart.csv** — Heart disease and cardiovascular health indicators for analysis.
 
 ---
 
