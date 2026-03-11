@@ -10,6 +10,39 @@ This repository contains hands-on EDA projects built with Jupyter notebooks. Eac
 
 ---
 
+## EDA Checklist
+
+Each project in this repository follows a structured exploratory data analysis workflow:
+
+| # | Step | Description |
+|---|------|-------------|
+| 1 | **Understand dataset** | Load data, review columns, and get familiar with the domain. |
+| 2 | **Check shape and info** | Inspect dimensions, dtypes, and memory usage. |
+| 3 | **Check missing values** | Identify and handle nulls or incomplete records. |
+| 4 | **Analyze target variable** | Explore distribution and patterns in the target/outcome. |
+| 5 | **Analyze categorical features** | Counts, value distributions, and mode for categorical columns. |
+| 6 | **Analyze numerical features** | Summary stats, distributions, and outliers for numeric columns. |
+| 7 | **Feature engineering** | Create or transform features to support analysis or modeling. |
+| 8 | **Correlation analysis** | Examine relationships between numerical variables. |
+| 9 | **Visualization** | Charts and plots to communicate findings. |
+| 10 | **Write insights** | Document key takeaways and recommendations. |
+
+---
+
+## Chart Selection Guide
+
+Choose the right visualization based on your data types:
+
+| Data Type | Chart |
+|-----------|-------|
+| Numerical distribution | Histogram |
+| Numerical vs Numerical | Scatter plot |
+| Category vs Numerical | Boxplot / Bar chart |
+| Category counts | Countplot |
+| Multiple variables | Heatmap |
+
+---
+
 ## Projects
 
 | Project | Description | Dataset |
@@ -19,6 +52,8 @@ This repository contains hands-on EDA projects built with Jupyter notebooks. Eac
 | **Project 3 — Netflix Movies & TV Shows** | Analysis of Netflix content distribution, genres, and growth over time. | `netflix_titles.csv` |
 | **Project 4 — Medical Insurance Cost** | Analysis of medical insurance costs and factors affecting premiums. | `insurance.csv` |
 | **Project 5 — Heart Disease Analysis** | EDA of heart disease indicators and related health metrics. | `heart.csv` |
+| **Project 6 — Titanic Data Analysis** | Analysis of Titanic passenger data and survival patterns. | `titanic.csv` |
+| **Project 7 — Air Ticket Price Analysis** | Analysis of airline ticket prices and pricing factors. | `airline_ticket_prices_dataset.csv` |
 
 ---
 
@@ -31,7 +66,9 @@ This repository contains hands-on EDA projects built with Jupyter notebooks. Eac
 │   ├── shopping_trends.csv
 │   ├── netflix_titles.csv
 │   ├── insurance.csv
-│   └── heart.csv
+│   ├── heart.csv
+│   ├── titanic.csv
+│   └── airline_ticket_prices_dataset.csv
 ├── Project1 Books Sales/
 │   └── Books.ipynb
 ├── Project2 Shopping Behavioure/
@@ -42,6 +79,10 @@ This repository contains hands-on EDA projects built with Jupyter notebooks. Eac
 │   └── insurance.ipynb
 ├── Project5 Heart disease Analysis/
 │   └── HeartAnalysis.ipynb
+├── Project6 Titanic Data Analysis/
+│   └── titanicAnalysis.ipynb
+├── Project7 Air Ticket Price Analysis/
+│   └── AirTicketPriceAnalysis.ipynb
 └── readme.md
 ```
 
@@ -100,6 +141,8 @@ This repository contains hands-on EDA projects built with Jupyter notebooks. Eac
 - **netflix_titles.csv** — Netflix movies and TV shows catalog for content analysis.
 - **insurance.csv** — Medical insurance cost data for cost and premium analysis.
 - **heart.csv** — Heart disease and cardiovascular health indicators for analysis.
+- **titanic.csv** — Titanic passenger and survival data for demographic and outcome analysis.
+- **airline_ticket_prices_dataset.csv** — Airline ticket pricing data for price and factor analysis.
 
 ---
 
