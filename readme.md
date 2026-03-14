@@ -1,12 +1,26 @@
 # EDA Projects
 
-A collection of **Exploratory Data Analysis (EDA)** projects demonstrating data cleaning, visualization, and insight extraction using Python, Pandas, and visualization libraries.
+A collection of **Exploratory Data Analysis (EDA)** projects (plus one ML regression project) demonstrating data cleaning, visualization, insight extraction, and prediction using Python, Pandas, and visualization libraries.
+
+---
+
+## Contents
+
+- [Overview](#overview)
+- [EDA Checklist](#eda-checklist)
+- [Chart Selection Guide](#chart-selection-guide)
+- [Projects](#projects)
+- [Repository Structure](#repository-structure)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Datasets](#datasets)
+- [Usage](#usage)
 
 ---
 
 ## Overview
 
-This repository contains hands-on EDA projects built with Jupyter notebooks. Each project focuses on real-world datasets and covers data loading, quality checks, visualization, and actionable insights.
+This repository contains hands-on EDA projects built with Jupyter notebooks. Each project focuses on real-world datasets and covers data loading, quality checks, visualization, and actionable insights. Each project folder has its own **README.md** with a problem statement, dataset description, analysis steps, and key insights.
 
 ---
 
@@ -54,9 +68,10 @@ Choose the right visualization based on your data types:
 | **Project 5 — Heart Disease Analysis** | EDA of heart disease indicators and related health metrics. | `heart.csv` |
 | **Project 6 — Titanic Data Analysis** | Analysis of Titanic passenger data and survival patterns. | `titanic.csv` |
 | **Project 7 — Air Ticket Price Analysis** | Analysis of airline ticket prices and pricing factors. | `airline_ticket_prices_dataset.csv` |
-| **Project 8 — Mini Mart Customer Analysis** | Analysis of mini mart customer behavior and purchasing patterns. | See notebook |
+| **Project 8 — Mini Mart Customer Analysis** | Analysis of mini mart customer behavior and purchasing patterns. | In-notebook data |
+| **Project 9 — ML: Insurance Charges Prediction** | Linear regression model to predict medical insurance charges from age, BMI, smoker, etc. | `insurance.csv` |
 
-Each project folder contains a **README.md** with problem statement, dataset details, analysis steps, and key insights.
+Each project folder contains a **README.md** with problem statement, dataset details, analysis steps, and key insights (Project 9 includes model and evaluation).
 
 ---
 
@@ -96,7 +111,10 @@ Each project folder contains a **README.md** with problem statement, dataset det
 ├── Project8 Mini Mart Customer Analysis/
 │   ├── miniMartCustomerAnalysis.ipynb
 │   └── README.md
-└── readme.md
+├── Project9 ML-Liner-regression-Insurance charges predections/
+│   ├── insurance.ipynb
+│   └── README.md
+└── README.md
 ```
 
 ---
@@ -109,6 +127,7 @@ Each project folder contains a **README.md** with problem statement, dataset det
 - **Matplotlib** — static visualizations
 - **Seaborn** — statistical visualizations
 - **Jupyter Notebook** — interactive analysis
+- **Scikit-learn** — for Project 9 (linear regression and model evaluation)
 
 ---
 
@@ -134,7 +153,7 @@ Each project folder contains a **README.md** with problem statement, dataset det
 3. **Install dependencies**:
 
    ```bash
-   pip install pandas numpy matplotlib seaborn jupyter
+   pip install pandas numpy matplotlib seaborn scikit-learn jupyter
    ```
 
 4. **Launch Jupyter**:
@@ -143,7 +162,7 @@ Each project folder contains a **README.md** with problem statement, dataset det
    jupyter notebook
    ```
 
-5. Open any `.ipynb` file from the project folders. Ensure notebook paths point to the `datasets/` folder when loading CSVs.
+5. Open any `.ipynb` file from the project folders. For CSV-based projects, ensure paths point to the `datasets/` folder when loading data (e.g. `../datasets/filename.csv` from a project folder).
 
 ---
 
@@ -156,6 +175,8 @@ Each project folder contains a **README.md** with problem statement, dataset det
 - **heart.csv** — Heart disease and cardiovascular health indicators for analysis.
 - **titanic.csv** — Titanic passenger and survival data for demographic and outcome analysis.
 - **airline_ticket_prices_dataset.csv** — Airline ticket pricing data for price and factor analysis.
+
+*Project 8 (Mini Mart) uses synthetic data created in the notebook; no CSV in `datasets/`.*
 
 ---
 
