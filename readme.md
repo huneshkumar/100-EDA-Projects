@@ -63,7 +63,7 @@ Choose the right visualization based on your data types:
 |--------|-------------|---------|
 | **Project 1 — Books Sales** | Analysis of book sales, ratings, genres, and publisher performance. | `Books_Data_Clean.csv` |
 | **Project 2 — Shopping Behaviour** | Exploration of customer shopping trends and purchasing patterns. | `shopping_trends.csv` |
-| **Project 3 — Netflix Movies & TV Shows** | Analysis of Netflix content distribution, genres, and growth over time. | `netflix_titles.csv` |
+| **Project 3 — Netflix Movies & TV Shows** | Analysis of Netflix content distribution, genres, and growth over time. | `netflix_titles.csv` *(add file to `datasets/` if missing)* |
 | **Project 4 — Medical Insurance Cost** | Analysis of medical insurance costs and factors affecting premiums. | `insurance.csv` |
 | **Project 5 — Heart Disease Analysis** | EDA of heart disease indicators and related health metrics. | `heart.csv` |
 | **Project 6 — Titanic Data Analysis** | Analysis of Titanic passenger data and survival patterns. | `titanic.csv` |
@@ -73,6 +73,7 @@ Choose the right visualization based on your data types:
 | **Project 10 — ML: Ford Car Price Prediction** | Linear regression model to predict used Ford car prices from model, year, mileage, transmission, fuel type, etc. | `ford.csv` |
 | **Project 11 — ML: House Price Prediction** | Linear regression model to predict median house prices (Boston Housing) from CRIM, RM, LSTAT, etc. | OpenML (see notebook) |
 | **Project 12 — ML: Titanic Survival (Logistic Regression)** | Logistic regression model to predict passenger survival from class, sex, age, fare, etc. | Seaborn (titanic) |
+| **Project 13 — Bollywood Movies EDA** | EDA on Bollywood movies: genre, release period, budget, revenue, screens, remakes, and franchises. | `Bollywood_movies.csv` |
 
 Each project folder contains a **README.md** with problem statement, dataset details, analysis steps, and key insights (Projects 9–12 include model and evaluation).
 
@@ -85,12 +86,12 @@ Each project folder contains a **README.md** with problem statement, dataset det
 ├── datasets/
 │   ├── Books_Data_Clean.csv
 │   ├── shopping_trends.csv
-│   ├── netflix_titles.csv
 │   ├── insurance.csv
 │   ├── heart.csv
 │   ├── titanic.csv
 │   ├── airline_ticket_prices_dataset.csv
-│   └── ford.csv
+│   ├── ford.csv
+│   └── Bollywood_movies.csv
 ├── Project1 Books Sales/
 │   ├── Books.ipynb
 │   └── README.md
@@ -126,6 +127,9 @@ Each project folder contains a **README.md** with problem statement, dataset det
 │   └── README.md
 ├── Project12 ML Logestic-regression Titanic survival/
 │   ├── Untitled.ipynb
+│   └── README.md
+├── Project13 Bollywood Movies EDA/
+│   ├── Bollywood Movies Eda.ipynb
 │   └── README.md
 └── README.md
 ```
@@ -183,14 +187,14 @@ Each project folder contains a **README.md** with problem statement, dataset det
 
 - **Books_Data_Clean.csv** — Book metadata, ratings, sales, and publisher information.
 - **shopping_trends.csv** — Customer shopping and trend data for behaviour analysis.
-- **netflix_titles.csv** — Netflix movies and TV shows catalog for content analysis.
 - **insurance.csv** — Medical insurance cost data for cost and premium analysis.
 - **heart.csv** — Heart disease and cardiovascular health indicators for analysis.
 - **titanic.csv** — Titanic passenger and survival data for demographic and outcome analysis.
 - **airline_ticket_prices_dataset.csv** — Airline ticket pricing data for price and factor analysis.
 - **ford.csv** — Used Ford car listings (model, year, mileage, transmission, fuel type, tax, mpg, engine size) for price prediction.
+- **Bollywood_movies.csv** — Bollywood film metadata, budget, revenue, genre, and release attributes for EDA.
 
-*Project 8 (Mini Mart) uses synthetic data in the notebook. Project 11 (House Price) loads Boston Housing via OpenML. Project 12 (Titanic Survival) loads Titanic via Seaborn (`sns.load_dataset('titanic')`); no CSV required.*
+*Project 3 (Netflix) expects **netflix_titles.csv** in `datasets/` — add the file if your notebook fails to load it. Project 8 (Mini Mart) uses synthetic data in the notebook. Project 11 (House Price) loads Boston Housing via OpenML. Project 12 (Titanic Survival) loads Titanic via Seaborn (`sns.load_dataset('titanic')`); no CSV required.*
 
 ---
 
