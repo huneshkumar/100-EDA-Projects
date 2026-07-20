@@ -1,6 +1,6 @@
 # EDA Projects
 
-A collection of **Exploratory Data Analysis (EDA)** and **Machine Learning (ML)** projects (regression, classification, clustering, and time-series style EDA) across **23** themed folders, demonstrating data cleaning, visualization, insight extraction, and prediction using Python, Pandas, and visualization libraries.
+A collection of **Exploratory Data Analysis (EDA)** and **Machine Learning (ML)** projects (regression, classification, clustering, and time-series style EDA) across **24** themed folders, demonstrating data cleaning, visualization, insight extraction, and prediction using Python, Pandas, and visualization libraries.
 
 ---
 
@@ -109,6 +109,7 @@ Choose the right visualization based on your data types:
 | **Project 21 — Unsupervised learning (clustering)** | **`make_blobs`** synthetic 2D data; **`StandardScaler`**; **elbow** curve over **K**; **`KMeans`** (e.g. `n_clusters=3`); alternate **KMeans** / **`DBSCAN`** (`eps`, `min_samples`) with **Seaborn** scatterplots by cluster (`Clustring.ipynb`). | `sklearn.datasets.make_blobs` (synthetic) |
 | **Project 22 — Silver price prediction (EDA)** | Load **`silver_price_forecast_2026.csv`** from the project **`dataset/`** folder; **EDA** and visuals on **Date**, **Predicted_Price**, bounds, **day_of_week**, **volatility**, rolling means (`notebooks/silver-price-forcast-EDA.ipynb`). | `Project22 Silver Price Prediction/dataset/silver_price_forecast_2026.csv` |
 | **Project 23 — Supply chain EDA** | **EDA** on global supply-chain orders: **`pd.read_csv(..., encoding='latin-1')`**, **`pd.to_datetime`** with **`errors='coerce'`**, drop unused columns, profiling and plots (`supplychain_eda.ipynb`). | `supply_chain_data.csv` |
+| **Project 24 — Customer Churn Analysis** | EDA of customer churn drivers with cleaning, categorical transformation, churn distribution, contract and payment method analysis, and retention insights. | `Customer Churn.csv` |
 
 Each project folder contains a **README.md** with problem statement, dataset details, analysis steps, and key insights (**Projects 9–12 and 15–22** include modeling, tuning, evaluation, clustering, or EDA-style pipelines as listed above; **Project 23** is **EDA-only** on supply-chain transactions).
 
@@ -212,6 +213,9 @@ Each project folder contains a **README.md** with problem statement, dataset det
 │   └── README.md
 ├── Project23 supplychain/
 │   ├── supplychain_eda.ipynb
+│   └── README.md
+├── Project24 Customer Chunk/
+│   ├── Customer Churn.ipynb
 │   └── README.md
 └── readme.md
 ```
